@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.jcoins.statement">
+		<item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.entry"><![CDATA[Blog-Eintrag]]></item>
+		<item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.entry"><![CDATA[Blog-Eintrag gelöscht]]></item>
+		<item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.entry"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Blog-Eintrag „{$statement->getObject()->getTitle()}“ wurde veröffentlicht.{else}Ein Blog-Eintrag von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde veröffentlicht, der mittlerweile gelöscht ist.{/if}]]></item>
+		<item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.entry"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Dein{else}Ihr{/if} Blog-Eintrag „{$statement->getObject()->getTitle()}“ wurde gelöscht oder deaktiviert.{else}Ein Blog-Eintrag von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde gelöscht.{/if}]]></item>
+		
+		<item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.blog"><![CDATA[Blog]]></item>
+		<item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.blog"><![CDATA[Blog gelöscht]]></item>
+		<item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.blog"><![CDATA[{if $statement->getObject()->getTitle()}{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} den Blog „{$statement->getObject()->getTitle()}“ gestartet.{else}{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} einen Blog gestartet, der mittlerweile gelöscht ist.{/if}]]></item>
+		<item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.blog"><![CDATA[Ein Blog von {if LANGUAGE_USE_INFORMAL_VARIANT}dir{else}Ihnen{/if} wurde gelöscht.]]></item>
+		
+		<!-- wcf.jcoins.statement.category -->
+		<item name="wcf.jcoins.statement.category.de.wcflabs.jcoins.blog"><![CDATA[WoltLab Suite Blog]]></item>
+	</category>
+</language>
