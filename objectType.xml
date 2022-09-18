@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/objectType.xsd">
-	<import>
-		<type>
-			<name>de.wcflabs.jcoins.statement.blog</name>
-			<definitionname>de.wcflabs.jcoins.statement.object</definitionname>
-			<defaultAmount>25</defaultAmount>
-			<retractable>1</retractable>
-			<classname>\wcf\system\jcoins\statement\DefaultJCoinsStatement</classname>
-			<category>de.wcflabs.jcoins.blog</category>
-			<objectClassName>\blog\data\blog\Blog</objectClassName>
-		</type>
-		
-		<type>
-			<name>de.wcflabs.jcoins.statement.entry</name>
-			<definitionname>de.wcflabs.jcoins.statement.object</definitionname>
-			<defaultAmount>50</defaultAmount>
-			<retractable>1</retractable>
-			<classname>\wcf\system\jcoins\statement\DefaultJCoinsStatement</classname>
-			<category>de.wcflabs.jcoins.blog</category>
-			<objectClassName>\blog\data\entry\Entry</objectClassName>
-		</type>
-	</import>
+    <import>
+        <type>
+            <name>de.wcflabs.jcoins.statement.blog</name>
+            <definitionname>de.wcflabs.jcoins.statement.object</definitionname>
+            <defaultAmount>25</defaultAmount>
+            <retractable>1</retractable>
+            <classname>\wcf\system\jcoins\statement\DefaultJCoinsStatement</classname>
+            <category>de.wcflabs.jcoins.blog</category>
+            <objectClassName>\blog\data\blog\Blog</objectClassName>
+        </type>
+
+        <type>
+            <name>de.wcflabs.jcoins.statement.entry</name>
+            <definitionname>de.wcflabs.jcoins.statement.object</definitionname>
+            <defaultAmount>50</defaultAmount>
+            <retractable>1</retractable>
+            <classname>\wcf\system\jcoins\statement\DefaultJCoinsStatement</classname>
+            <category>de.wcflabs.jcoins.blog</category>
+            <objectClassName>\blog\data\entry\Entry</objectClassName>
+        </type>
+    </import>
 </data>

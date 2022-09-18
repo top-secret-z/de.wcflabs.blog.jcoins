@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/eventListener.xsd">
-	<import>
-		<eventlistener name="jCoinsBlogAction">
-			<eventclassname>blog\data\blog\BlogAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<listenerclassname>blog\system\event\listener\JCoinsCreateBlogListener</listenerclassname>
-		</eventlistener>
-		<eventlistener name="jCoinsBlogEntryAction">
-			<eventclassname>blog\data\entry\EntryAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<listenerclassname>blog\system\event\listener\JCoinsCreateEntryListener</listenerclassname>
-		</eventlistener>
-		<eventlistener name="jCoinsBlogEntryActionAdmin">
-			<eventclassname>blog\data\entry\EntryAction</eventclassname>
-			<eventname>finalizeAction</eventname>
-			<environment>admin</environment>
-			<listenerclassname>blog\system\event\listener\JCoinsCreateEntryListener</listenerclassname>
-		</eventlistener>
-		
-		<eventlistener name="jCoinsBlogAddForm">
-			<eventclassname>blog\form\BlogAddForm</eventclassname>
-			<eventname>checkPermissions</eventname>
-			<listenerclassname>blog\system\event\listener\JCoinsCreateBlogAddFormListener</listenerclassname>
-		</eventlistener>
-		<eventlistener name="jCoinsBlogEntryAddForm">
-			<eventclassname>blog\form\EntryAddForm</eventclassname>
-			<eventname>checkPermissions</eventname>
-			<listenerclassname>blog\system\event\listener\JCoinsCreateEntryAddFormListener</listenerclassname>
-		</eventlistener>
-	</import>
+    <import>
+        <eventlistener name="jCoinsBlogAction">
+            <eventclassname>blog\data\blog\BlogAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <listenerclassname>blog\system\event\listener\JCoinsCreateBlogListener</listenerclassname>
+        </eventlistener>
+        <eventlistener name="jCoinsBlogEntryAction">
+            <eventclassname>blog\data\entry\EntryAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <listenerclassname>blog\system\event\listener\JCoinsCreateEntryListener</listenerclassname>
+        </eventlistener>
+        <eventlistener name="jCoinsBlogEntryActionAdmin">
+            <eventclassname>blog\data\entry\EntryAction</eventclassname>
+            <eventname>finalizeAction</eventname>
+            <environment>admin</environment>
+            <listenerclassname>blog\system\event\listener\JCoinsCreateEntryListener</listenerclassname>
+        </eventlistener>
+
+        <eventlistener name="jCoinsBlogAddForm">
+            <eventclassname>blog\form\BlogAddForm</eventclassname>
+            <eventname>checkPermissions</eventname>
+            <listenerclassname>blog\system\event\listener\JCoinsCreateBlogAddFormListener</listenerclassname>
+        </eventlistener>
+        <eventlistener name="jCoinsBlogEntryAddForm">
+            <eventclassname>blog\form\EntryAddForm</eventclassname>
+            <eventname>checkPermissions</eventname>
+            <listenerclassname>blog\system\event\listener\JCoinsCreateEntryAddFormListener</listenerclassname>
+        </eventlistener>
+    </import>
 </data>
