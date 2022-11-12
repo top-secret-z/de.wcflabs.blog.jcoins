@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="en">
-	<category name="wcf.jcoins.statement">
-		<item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.entry"><![CDATA[Blog Article]]></item>
-		<item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.entry"><![CDATA[Blog Article deleted]]></item>
-		<item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.entry"><![CDATA[{if $statement->getObject()->getTitle()}Your Blog article “{$statement->getObject()->getTitle()}” was published.{else}A Blog article of yours was published, which was deleted in the meantime.{/if}]]></item>
-		<item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.entry"><![CDATA[{if $statement->getObject()->getTitle()}Your Blog article “{$statement->getObject()->getTitle()}” was trashed or disabled.{else}A Blog article of yours was deleted.{/if}]]></item>
-		
-		<item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.blog"><![CDATA[Blog]]></item>
-		<item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.blog"><![CDATA[Blog deleted]]></item>
-		<item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.blog"><![CDATA[{if $statement->getObject()->getTitle()}You started the blog “{$statement->getObject()->getTitle()}”.{else}You started a blog, which was deleted in the meantime.{/if}]]></item>
-		<item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.blog"><![CDATA[A blog of yours was deleted.]]></item>
-		
-		<!-- wcf.jcoins.statement.category -->
-		<item name="wcf.jcoins.statement.category.de.wcflabs.jcoins.blog"><![CDATA[WoltLab Suite Blog]]></item>
-	</category>
+    <category name="wcf.jcoins.statement">
+        <item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.entry"><![CDATA[Blog Article]]></item>
+        <item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.entry"><![CDATA[Blog Article deleted]]></item>
+        <item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.entry"><![CDATA[{if $statement->getObject()->getTitle()}Your Blog article “{$statement->getObject()->getTitle()}” was published.{else}A Blog article of yours was published, which was deleted in the meantime.{/if}]]></item>
+        <item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.entry"><![CDATA[{if $statement->getObject()->getTitle()}Your Blog article “{$statement->getObject()->getTitle()}” was trashed or disabled.{else}A Blog article of yours was deleted.{/if}]]></item>
+
+        <item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.blog"><![CDATA[Blog]]></item>
+        <item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.blog"><![CDATA[Blog deleted]]></item>
+        <item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.blog"><![CDATA[{if $statement->getObject()->getTitle()}You started the blog “{$statement->getObject()->getTitle()}”.{else}You started a blog, which was deleted in the meantime.{/if}]]></item>
+        <item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.blog"><![CDATA[A blog of yours was deleted.]]></item>
+
+        <!-- wcf.jcoins.statement.category -->
+        <item name="wcf.jcoins.statement.category.de.wcflabs.jcoins.blog"><![CDATA[WoltLab Suite Blog]]></item>
+    </category>
 </language>
